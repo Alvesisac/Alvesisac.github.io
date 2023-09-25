@@ -438,4 +438,18 @@ footer {
     flex-direction: column;
   }
 
+  textarea {
+    width: 200px;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .mapa iframe {
+    width: 250px;
+    height: 150px;
+  }
+
 }
