@@ -310,7 +310,7 @@ textarea {
 }
 
 .mapa {
-  margin-left: 10px;
+  margin-left: 250px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -387,7 +387,7 @@ footer {
   .apresentacao .left img {
     margin-bottom: 20px;
     text-align: center;
-    
+
   }
 
   .right {
@@ -402,7 +402,7 @@ footer {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    
+
   }
 
   .containerSobremim .right {
@@ -411,8 +411,6 @@ footer {
     margin-left: auto;
 
   }
-
-
 
   .containerServicos {
     flex-direction: column;
@@ -424,17 +422,11 @@ footer {
     font-size: 16px;
   }
 
-  .itemServicos1
-  .itemServicos2
-  .itemServicos3
-  .itemServicos4
-  .itemServicos5
-  .itemServicos6
-  .itemServicos7
-  .itemServicos8 {
+  .itemServicos1 .itemServicos2 .itemServicos3 .itemServicos4 .itemServicos5 .itemServicos6 .itemServicos7 .itemServicos8 {
     width: 75%;
   }
-  .displayContato{
+
+  .displayContato {
     flex-direction: column;
   }
 
@@ -445,10 +437,96 @@ footer {
   .mapa {
     margin-left: 0px;
     margin-top: 50px;
+
   }
 
   .mapa iframe {
-    width: 50px;
+    width: 250px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .apresentacao {
+    flex-direction: column;
+  }
+
+  .apresentacao .left img {
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .containerSobremim {
+    flex-direction: column;
+  }
+
+  .containerSobremim .left {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .containerSobremim .right {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .containerSobremim {
+    flex-direction: column;
+  }
+
+  .containerSobremim .left {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .containerSobremim .right {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .containerServicos {
+    flex-direction: column;
+
+  }
+
+  .containerServicos h3 {
+
+    font-size: 16px;
+  }
+
+  .itemServicos1 .itemServicos2 .itemServicos3 .itemServicos4 .itemServicos5 .itemServicos6 .itemServicos7 .itemServicos8 {
+    width: 75%;
+  }
+
+  .displayContato {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+
+  }
+
+  .mapa iframe {
+    width: 250px;
     height: 150px;
   }
 
